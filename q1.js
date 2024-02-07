@@ -1,0 +1,2 @@
+document.querySelectorAll('table tr:nth-child(even)').forEach(row => row.style.backgroundColor = 'purple');
+document.querySelectorAll('table tr:nth-child(odd)').forEach(row => row.style.backgroundColor = 'gold');
